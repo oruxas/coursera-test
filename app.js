@@ -3,7 +3,7 @@
   
   angular.module('mod1Solution',[])
   .controller('solutionController', function($scope){
-    $scope.menuText = "";
+    $scope.menuText = "Labas";
   });
   
 }
