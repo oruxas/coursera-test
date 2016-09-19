@@ -1,8 +1,10 @@
-(
-
-angular.module('mod1Solution',[$scope])
-  .controller('solutionController', [$scope], function(scope){
+(function(){
+  'use strict';
+  
+  angular.module('mod1Solution',[])
+  .controller('solutionController', function($scope){
   
   });
-
+  
+}
 )();
